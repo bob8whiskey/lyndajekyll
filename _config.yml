@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Jekyll for Web Designers
 description: "Companion blog to lynda.com course Jekyll for Web Designers"
-baseurl: "/lyndajekyll/"
-url: "http://bob8whiskey.github.io/lyndajekyll/"
+baseurl: "/lyndajekyll"
+url: "http://bob8whiskey.github.io/lyndajekyll"
 tagline: "Bob's customized tagline"
 
 # Build settings

@@ -34,14 +34,14 @@ published
 
 category
 categories
-: Assigns a single category or space-separated list of categories to a post. Categories can be used in permalinks and are hierarchical in nature. Allows you to structure posts like **web-design/html/post-title/index.html**. Posts can also be organized and sorted by categories.
+: Assigns a single category or space-separated list of categories to a post. Categories can be used in permalinks and are hierarchical in nature. Allows you to structure posts like **web-design/html/post-title/index.html**. Posts can also be organized and sorted by categories. 
 
 tags
-: Similar to categories, you can apply a single tag or multiples tags in a YAML list or a space-separated string. Although posts can be organized and sorted by tags, they can’t be used for permalinks like categories.
+: Similar to categories, you can apply a single tag or multiples tags in a YAML list or a space-separated string. Although posts can be organized and sorted by tags, they can’t be used for permalinks like categories. 
 
 ###Custom variables
 
-In addition to the predefined Global Variables, you can create any custom variable you want. That variable can then be accessed by any page or post that uses that content.
+In addition to the predefined Global Variables, you can create any custom variable you want. That variable can then be accessed by any page or post that uses that content. 
 
 The most common form of custom variable is to store information like page titles, author names, and descriptions that can be added to the page or in **meta** tags to enhance page metadata. You can take this even further and control things like page layout as well. Let’s say that most pages in your site uses a simple sidebar, but occasionally you need to use a longer sidebar. In your template you could have the following markup:
 
@@ -86,3 +86,4 @@ Jekyll provides built-in support for Sass and CoffeeScript, but won’t process 
 ~~~~~~~
 
 The files will then be processed, and the resulting file will be located in the same directory in the generated site. The file **css/layout.scss** would generate **css/layout.css** in the finished site.
+
